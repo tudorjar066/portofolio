@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="nl-BE">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tudor Jar - Home</title>
+    <meta name="description" content="Portfolio van Tudor Jar, student systeem- en
+netwerkbeheer aan AP Hogeschool. Bekijk mijn projecten en neem contact op.">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/tailwind.css">
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="text-gray-800 font-sans pb-8">
+
+    <div class="max-w-6xl mx-auto px-4">
+           <header class="flex flex-wrap justify-between items-center py-6 mb-4 border-b border-gray-400">
+            <a href="index.html"><img src="images/Logo@2x.png" alt="Logo van Tudor Jar" width="200" height="200" class="h-24 md:h-32 w-auto border border-gray-400 mix-blend-multiply"></a>
+
+            <input type="checkbox" id="menu-knop" class="peer sr-only">
+            <label for="menu-knop" class="md:hidden flex items-center border border-gray-400 px-2 py-1 cursor-pointer peer-focus-visible:outline-2">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="size-6" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16" /></svg>
+                <span class="sr-only">Menu</span>
+            </label>
+
+            <nav aria-label="Hoofdmenu"
+                class="hidden peer-checked:block md:block w-full lg:w-auto mt-6 lg:mt-0 text-sm font-mono tracking-widest border border-gray-300 lg:border-none p-4 lg:p-0">
+                <ul class="flex flex-col md:flex-row md:items-center gap-1">
+                    <li><a href="index.html" aria-current="page" class="block px-3 py-2 rounded-lg bg-blue-100 text-blue-800 font-bold">home</a></li>
+                    <li aria-hidden="true" class="hidden md:block">&middot;</li>
+                    <li><a href="portfolio.html" class="block px-3 py-2 rounded-lg hover:bg-gray-100">portfolio</a></li>
+                    <li aria-hidden="true" class="hidden md:block">&middot;</li>
+                    <li><a href="project.html" class="block px-3 py-2 rounded-lg hover:bg-gray-100">project</a></li>
+                    <li aria-hidden="true" class="hidden md:block">&middot;</li>
+                    <li><a href="contact.html" class="block px-3 py-2 rounded-lg hover:bg-gray-100">contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="grid grid-cols-1 lg:grid-cols-4 gap-8 mb-12">
+
+            <main class="lg:col-span-3 flex flex-col gap-5 border border-gray-300 p-2 lg:p-0 lg:border-none">
+
+                <img src="images/Netwerk@2x.png" alt="Voorbeeldafbeelding bovenaan de startpagina" width="1200" height="800" class="w-full aspect-[5/2] md:aspect-[3/1] object-cover border border-gray-400">
+
+                <h1 class="text-2xl font-semibold tracking-tight">Welkom op mijn portfolio</h1>
+
+                <div class="mt-2">
+                    <a href="portfolio.html"
+                        class="inline-block bg-gray-600 text-white px-6 py-2 text-sm font-semibold tracking-wide hover:bg-gray-800">bekijk
+                        werk</a>
+                </div>
+            </main>
+
+            <aside
+                class="lg:col-span-1 flex flex-row lg:flex-col gap-6 border border-gray-300 p-4 lg:p-0 lg:border-none">
+
+                <img src="images/image.jpg" alt="Portretfoto van Tudor Jar" width="1200" height="800" class="size-24 shrink-0 rounded-full object-cover">
+
+                <div class="flex flex-col gap-3 w-full justify-center lg:justify-start">
+                    <h2 class="text-lg font-semibold mb-1">Tudor Jar</h2>
+                    <p class="text-sm">Mijn naam is Tudor Jar (20), student Systeem- en Netwerkbeheer aan de AP Hogeschool Antwerpen. Ik ben een leergierige IT-enthousiasteling die zelf pc's bouwt, met Linux werkt en programmeert. De focus en het probleemoplossend denken uit mijn hobby boulderen, combineer ik met de sterke communicatieskills uit mijn eerdere saleservaring. Ik ben momenteel op zoek naar een eerste professionele uitdaging om mijn kennis van systeem- en netwerkadministratie in de praktijk te brengen.</p>
+                     <div class="mt-2 text-sm font-mono text-gray-800"><a href="https://www.linkedin.com/in/tudor-jar-bb9959394/?isSelfProfile=true" class="text-blue-700 underline hover:text-blue-900">linkedin</a> &middot; <a href="https://www.instagram.com/tudor.jar/" class="text-blue-700 underline hover:text-blue-900">Instagram</a></div>
+                </div>
+            </aside>
+
+        </div>
+
+        <footer
+            class="flex justify-between items-center py-6 border-t border-gray-400 text-sm font-mono gap-4 mt-8">
+            <div>&copy; Tudor Jar</div>
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
